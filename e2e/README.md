@@ -81,7 +81,6 @@
 
 ## USER STORIES AND TESTS CASES
    - User can see a table budget on budget page
-   -- Test cases:
      - Verify that the budgeting table has a column labeled Category
      - Verify that the budgeting table has a column labeled Description
      - Verify that the budgeting table has a column labeled Amount
@@ -91,48 +90,41 @@
      - Verify that the budgeting table has an Add button
 
   - User can see the balance fields
-  -- Test cases:
      - Verify that there is a Total Inflow field at the bottom
      - Verify that there is a Total Outflow field at the bottom
      - Verify that there is a Working Balance field at the bottom
 
-  User can add inflows to the budget
-  Test cases:
-     Verify that the user is able to add a Category type income
-     Verify that the income added is color green on the table
-     Verify that the income added has format number plus dot plus 2 digits
-     Verify that the income added increases the total inflow amount accurately
-     Verify that the income added increases the working balance amount accurately
+  - User can add inflows to the budget
+     - Verify that the user is able to add a Category type income
+     - Verify that the income added is color green on the table
+     - Verify that the income added has format number plus dot plus 2 digits
+     - Verify that the income added increases the total inflow amount accurately
+     - Verify that the income added increases the working balance amount accurately
 
-  User can add outflows to the budget
-  Test cases:
-     Verify that the user is able to add a Category of any type but income
-     Verify that the outflow added is color red on the table
-     Verify that the outflow added has format negative number plus dot plus 2 digits
-     Verify that the outflow added increases the total outflow amount accurately
-     Verify that the outflow added decreases the working balance amount accurately
+  - User can add outflows to the budget
+     - Verify that the user is able to add a Category of any type but income
+     - Verify that the outflow added is color red on the table
+     - Verify that the outflow added has format negative number plus dot plus 2 digits
+     - Verify that the outflow added increases the total outflow amount accurately
+     - Verify that the outflow added decreases the working balance amount accurately
 
-  User can fill Description field
-  Test cases:
-     Verify that the Description field is mandatory
-     Verify that the Description field allows special characters
-     Verify that the Description field has a limit of 100 characters
+  - User can fill Description field
+     - Verify that the Description field is mandatory
+     - Verify that the Description field allows special characters
+     - Verify that the Description field has a limit of 100 characters
 
-  User can fill Amount field
-  Test cases:
-     Verify that the Amount field is mandatory
-     Verify that the Amount field allows only numbers and dots
-     Verify that the Amount field format has a limit of 30 digits
+  - User can fill Amount field
+     - Verify that the Amount field is mandatory
+     - Verify that the Amount field allows only numbers and dots
+     - Verify that the Amount field format has a limit of 30 digits
 
-  User can generate Inflow vs Outflow report
-  Test cases:
-      Verify there is a section labeled Inflow vs Outflow under report page
-      Verify the report generated has an green Inflow column with the accurate total amount at the bottom
-      Verify the report generated has an Outflow column split in categories with the accurate total amount at the bottom
+  - User can generate Inflow vs Outflow report
+     - Verify there is a section labeled Inflow vs Outflow under report page
+     - Verify the report generated has an green Inflow column with the accurate total amount at the bottom
+     - Verify the report generated has an Outflow column split in categories with the accurate total amount at the bottom
 
-  User can generate Spending by Category report
-  Test cases:
-      Verify there is a section labeled Spending by Category under report page
-      Verify the report generated has all the categories and their accurate amount
+  - User can generate Spending by Category report
+     - Verify there is a section labeled Spending by Category under report page
+     - Verify the report generated has all the categories and their accurate amount
 
 # AUTOMATED TESTS
