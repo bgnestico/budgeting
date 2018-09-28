@@ -15,7 +15,6 @@
 ### Test Assumptions
    - Non-functional testing was performed and was successfully.
    - This is a web app only, not available for mobile.
-   - Users have fully access to the app.
 
 ### Test Objectives
    - Budgeting creation
@@ -33,68 +32,69 @@
    - Multiple browsers testing.
 
 ### Approach
-    - Black box manual testing.
-    - End to end flows.
-    - Automation with Watir and Cucumber.
-## Test Environment
-   Local host using Chrome browser only.
+   - Black box manual testing.
+   - End to end flows.
+   - Automation with Watir and Cucumber.
 
-# TEST MANAGEMENT PROCESS
-## Tools
-   Jira
-## Test design process
-   Understanding requirements
-   Use cases creation
-   Use cases review
-   Test cases creation
-   Test cases review
+### Test Environment
+   - Local host using Chrome browser only.
 
-## Test cases design
-   Description
-   Type
-   Priority
-   Preconditions
-   Steps
-   Expected results
+## TEST MANAGEMENT PROCESS
+### Tools
+   - Jira
+### Test design process
+   - Understanding requirements
+   - Use cases creation
+   - Use cases review
+   - Test cases creation
+   - Test cases review
 
-## Test execution process
-   Run tests
-   Set result of the execution
-   Bugs logging and follow up with devs
-   Daily stand up meetings
+### Test cases design
+   - Description
+   - Type
+   - Priority
+   - Preconditions
+   - Steps
+   - Expected results
 
-## Bug template
-   Title
-   Description
-   Priority
-   Steps to reproduce
-   Actual results
-   Expected results
-   Attachments (screenshots, videos, logs)
-   Environment
+### Test execution process
+   - Run tests
+   - Set result of the execution
+   - Bugs logging and follow up with devs
+   - Daily stand up meetings
 
-## Bug classification
-   Critical = App broken (Blocker)
-   High = Major feature implemented that is not meeting its requirements.
-   Medium = Feature implemented that is not meeting its requirements but impact is negligible.
-   Low = Cosmetic impact.
+### Bug template
+   - Title
+   - Description
+   - Priority
+   - Steps to reproduce
+   - Actual results
+   - Expected results
+   - Attachments (screenshots, videos, logs)
+   - Environment
 
-# USER STORIES AND TESTS CASES
-   User can see a table budget on budget page
-   Test cases:
-     Verify that the budgeting table has a column labeled Category
-     Verify that the budgeting table has a column labeled Description
-     Verify that the budgeting table has a column labeled Amount
-     Verify that the budgeting table has a select field for categories
-     Verify that the budgeting table has a Description field
-     Verify that the budgeting table has an Amount field
-     Verify that the budgeting table has an Add button
+### Bug classification
+   - Critical = App broken (Blocker)
+   - High = Major feature implemented that is not meeting its requirements.
+   - Medium = Feature implemented that is not meeting its requirements but impact is negligible.
+   - Low = Cosmetic impact.
 
-  User can see the balance fields
-  Test cases:
-     Verify that there is a Total Inflow field at the bottom
-     Verify that there is a Total Outflow field at the bottom
-     Verify that there is a Working Balance field at the bottom
+## USER STORIES AND TESTS CASES
+   - User can see a table budget on budget page
+   -- Test cases:
+     - Verify that the budgeting table has a column labeled Category
+     - Verify that the budgeting table has a column labeled Description
+     - Verify that the budgeting table has a column labeled Amount
+     - Verify that the budgeting table has a select field for categories
+     - Verify that the budgeting table has a Description field
+     - Verify that the budgeting table has an Amount field
+     - Verify that the budgeting table has an Add button
+
+  - User can see the balance fields
+  -- Test cases:
+     - Verify that there is a Total Inflow field at the bottom
+     - Verify that there is a Total Outflow field at the bottom
+     - Verify that there is a Working Balance field at the bottom
 
   User can add inflows to the budget
   Test cases:
