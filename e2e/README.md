@@ -9,7 +9,7 @@
 ### Goal
    This test plan describes the testing approach and overall framework that will drive the testing of the Budgeting App.
 ### Project description
-   Budgeting App is a tool provided by Modus Create that allows users to create a personal budget, including incomes and outcomes, generating accurate reports so they can follow, understand and control their cash flow.
+   Budgeting App is a tool provided by Modus Create that allows users to create a personal budget, including inflows and outflows, generating accurate reports so they can follow, understand and control their cash flow.
 
 ## TESTING STRATEGY
 ### Test Assumptions
