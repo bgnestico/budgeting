@@ -1,9 +1,9 @@
 # Budgeting App test plan
 
-Prepared by: Daniel Cavenago
-Version: 1.0
-Date of creation: 20180928
-Last update: 20180928
+- Prepared by: Daniel Cavenago
+- Version: 1.0
+- Date of creation: 20180928
+- Last update: 20180928
 
 ## INTRODUCTION
 ### Goal
@@ -12,30 +12,30 @@ Last update: 20180928
    Budgeting App is a tool provided by Modus Create that allows users to create a personal budget, including incomes and outcomes, generating accurate reports so they can follow, understand and control their cash flow.
 
 ## TESTING STRATEGY
-## Test Assumptions
-   Non-functional testing was performed and was successfully.
-   This is a web app only, not available for mobile.
-   Users have fully access to the app.
+### Test Assumptions
+   - Non-functional testing was performed and was successfully.
+   - This is a web app only, not available for mobile.
+   - Users have fully access to the app.
 
-## Test Objectives
-   Budgeting creation
-   Reporting creation
-   User experience
+### Test Objectives
+   - Budgeting creation
+   - Reporting creation
+   - User experience
 
-## Scope
-   Exploratory testing
-   Functional testing
-   Automation testing
+### Scope
+   - Exploratory testing
+   - Functional testing
+   - Automation testing
 
-## Out of scope
-   All types of Non Functional testing.
-   Mobile testing.
-   Multiple browsers testing.
+### Out of scope
+   - All types of Non Functional testing.
+   - Mobile testing.
+   - Multiple browsers testing.
 
-## Approach
-    Black box manual testing.
-    End to end flows.
-    Automation with Watir and Cucumber.
+### Approach
+    - Black box manual testing.
+    - End to end flows.
+    - Automation with Watir and Cucumber.
 ## Test Environment
    Local host using Chrome browser only.
 
