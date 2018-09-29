@@ -142,4 +142,6 @@ The automation tests will run with Watir driver, using ruby + cucumber.
   - go to e2e folder
   - bundle install
   - cucumber
+
+  Note: last scenario is prepared to fail.
   ```
