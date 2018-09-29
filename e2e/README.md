@@ -139,6 +139,7 @@ The automation tests will run with Watir driver, using ruby + cucumber.
   - npm run prod
 
   - Once you have your app running on localhost, open another terminal
+  - go to e2e folder
   - bundle install
   - cucumber
   ```
