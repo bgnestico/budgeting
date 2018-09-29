@@ -10,3 +10,7 @@ Given(/^I open page "([^"]*)"$/) do |url|
   @Browser = Watir::Browser.new :chrome, options: {args: args}
   @Browser.goto ("#{'http://localhost:8000' + url}")
 end
+
+And("I close the browser") do
+  @Browser.quit
+end

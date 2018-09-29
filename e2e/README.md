@@ -107,6 +107,7 @@
      - Verify that the outflow added has format negative number plus dot plus 2 digits
      - Verify that the outflow added increases the total outflow amount accurately
      - Verify that the outflow added decreases the working balance amount accurately
+     - Verify that the working balance can be negative
 
   - User can fill Description field
      - Verify that the Description field is mandatory
