@@ -1,6 +1,6 @@
 Feature: Budgeting App
 
-  Scenario: User add an inflow to the budget
+  Scenario: User add an inflow to the budget and generates report
     Given I open page "/"
     Given I check the current balance
     When user select a category "Income"
@@ -15,7 +15,7 @@ Feature: Budgeting App
     And I close the browser
 
 
-  Scenario: User add an outflow to the budget
+  Scenario: User add an outflow to the budget and generates report
     Given I open page "/"
     Given I check the current balance
     When user select a category "Travel"
@@ -30,7 +30,7 @@ Feature: Budgeting App
     And I close the browser
 
 
-  Scenario: User makes balance negative
+  Scenario: User makes balance negative and generates report
     Given I open page "/"
     Given I check the current balance
     When user select a category "Travel"
