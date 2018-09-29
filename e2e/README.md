@@ -133,12 +133,12 @@
 The automation tests will run with Watir driver, using ruby + cucumber.
 
 - Run the following commands in your terminal:
--- npm install
--- nvm install v8.9
--- nvm use 8.9
--- npm run build
--- npm run prod
+  ```
+  - npm install
+  - npm run build
+  - npm run prod
 
--- Once you have your app running on localhost, open another terminal
--- bundle install
--- cucumber
+  - Once you have your app running on localhost, open another terminal
+  - bundle install
+  - cucumber
+  ```
